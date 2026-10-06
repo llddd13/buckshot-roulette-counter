@@ -1,0 +1,11 @@
+* text=auto
+
+# C# / 文本文件统一用 CRLF（Windows 项目）
+*.cs   text eol=crlf
+*.ps1  text eol=crlf
+*.md   text eol=lf
+*.ini  text eol=crlf
+
+# 二进制
+*.exe  binary
+*.png  binary

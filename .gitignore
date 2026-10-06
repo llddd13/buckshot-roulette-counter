@@ -1,0 +1,16 @@
+# 运行时生成
+config.ini
+debug.log
+
+# 构建/测试产物
+*.exe
+!恶魔轮盘记弹器.exe
+tools/*.exe
+_devtest.exe
+
+# 编辑器 / 系统
+.vs/
+.idea/
+*.user
+Thumbs.db
+desktop.ini
